@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Affordable Housing</title>
+    <style>
+        /* Basic styling for demonstration */
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: Arial, sans-serif; line-height: 1.6; }
+        
+        /* Navigation */
+        nav {
+            background: #333;
+            color: white;
+            padding: 1rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        nav ul {
+            display: flex;
+            list-style: none;
+            gap: 2rem;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+        }
+        
+        /* Hero Section */
+        .hero {
+            background: #f0f0f0;
+            padding: 4rem 2rem;
+            text-align: center;
+        }
+        .hero h1 { margin-bottom: 1rem; }
+        .cta-button {
+            display: inline-block;
+            background: #007bff;
+            color: white;
+            padding: 0.8rem 1.5rem;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 1rem;
+        }
+        
+        /* Featured Listings */
+        .featured-listings {
+            padding: 2rem;
+        }
+        .listing-cards {
+            display: flex;
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+        .card {
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        .card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .card h3, .card p {
+            padding: 0.5rem;
+        }
+        .view-details {
+            display: block;
+            background: #007bff;
+            color: white;
+            text-align: center;
+            padding: 0.5rem;
+            text-decoration: none;
+        }
+        
+        /* Footer */
+        footer {
+            background: #333;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+        footer ul {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            gap: 2rem;
+            margin-top: 1rem;
+        }
+        footer a {
+            color: white;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="index.html">AffordableHousing.com</a>
+            </div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="listings.html">Browse Listings</a></li>
+                <li><a href="submit.html">Submit Listing</a></li>
+                <li><a href="#">Sign Up / Log In</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Find Affordable Housing in Your Area</h1>
+            <p>Your trusted source for affordable rental listings.</p>
+            <a href="listings.html" class="cta-button">Browse Apartments</a>
+        </div>
+    </section>
+
+    <!-- Featured Listings Section -->
+    <section class="featured-listings">
+        <h2>Featured Listings</h2>
+        <div class="listing-cards">
+            <div class="card">
+                <img src="/api/placeholder/400/320" alt="Apartment 1">
+                <h3>Studio Apartment - Downtown</h3>
+                <p>$800/month - 1 Bedroom</p>
+                <a href="listings.html" class="view-details">View Details</a>
+            </div>
+            <div class="card">
+                <img src="/api/placeholder/400/320" alt="Apartment 2">
+                <h3>1 Bedroom - Quiet Neighborhood</h3>
+                <p>$950/month - 1 Bedroom</p>
+                <a href="listings.html" class="view-details">View Details</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Affordable Housing. All rights reserved.</p>
+        <ul>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms & Conditions</a></li>
+            <li><a href="#">About Us</a></li>
+        </ul>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Browse Listings</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="index.html">AffordableHousing.com</a>
+            </div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="listings.html">Browse Listings</a></li>
+                <li><a href="submit.html">Submit Listing</a></li>
+                <li><a href="#">Sign Up / Log In</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="search-filters">
+        <input type="text" placeholder="Search Location..." id="location-filter">
+        <select id="price-filter">
+            <option value="">Price Range</option>
+            <option value="1000">$500 - $1000</option>
+            <option value="2000">$1000 - $2000</option>
+        </select>
+        <button id="apply-filters">Apply Filters</button>
+    </section>
+
+    <section class="listing-results">
+        <h2>Available Apartments</h2>
+        <!-- Listings will go here -->
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Affordable Housing. All rights reserved.</p>
+        <ul>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms & Conditions</a></li>
+            <li><a href="#">About Us</a></li>
+        </ul>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
